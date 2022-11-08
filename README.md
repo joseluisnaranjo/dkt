@@ -17,6 +17,10 @@ we implemented our own LSTM variant of DKT. This repository contains our impleme
  - numpy
  - scikit-learn
 
+# El ambiente de desarrolloo usado para testear esta en el archivo yaml, se lo puede creaear con el coamando:
+conda env create -f /home/jolunavi/laboratorio/dkt/env.yaml
+
+https://towardsdatascience.com/how-to-export-and-load-anaconda-environments-for-data-science-projects-77dc3b781369
 # Data Format
 The model is contained within one script. It expects two files: a dataset file and
 a split file. The dataset file contains student, skill and performance information whilst the split file specifies which students belong to the training set. 
